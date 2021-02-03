@@ -1,0 +1,26 @@
+# django-react
+## dictionary configuration/settings
+- music_controller
+    - api
+    - frontend
+        - install modules
+                - npm init
+                - npm install webpack webpack-cli --save-dev
+                - npm i @babel/core babel-loader @babel/preset-react --save-dev
+                - npm i react react-dom --save-dev
+                - npm install @material-ui/core
+                - npm install @babel/plugin-proposal-class-properties
+                - npm install react-router-dom
+                - npm install @material-ui/icons
+        - babel.config.json
+            - 의미
+        - webpack.config.js
+            - 의미
+        - package.js
+            - "dev": "weboack --mode development --watch",
+                - 개발 버전
+            - "build": "wwebpack -mode production"
+                - 생산 버전
+            - "test": "echo \"Error: no test specified\" && exit 1"
+                - 테스트 버전
+    - music_controller
