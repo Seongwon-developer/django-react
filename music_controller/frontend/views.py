@@ -1,6 +1,8 @@
 from django.shortcuts import render
 
 # Create your views here.
-def index(req, *args, **kwargs):
-    return render(req, 'frontend/index.htm')
+
+
+def index(request, *args, **kwargs):
+    return render(request, 'frontend/index.html')
  
